@@ -1,0 +1,16 @@
+:root {
+  --main-color: #eb5757;
+  --deep-color: #d15151;
+  --gray: #333333;
+  --text-color: #fff
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', Geneva, Tahoma, sans-serif;
+}

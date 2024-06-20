@@ -1,0 +1,138 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow wrapping of sections */
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f8f8f8;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    min-width: 170px;
+    /* Ensure sections don't shrink too much */
+}
+
+.footer-branding {
+    /* max-width: 250px; */
+    min-width: 230px;
+}
+
+.footer-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: var(--gray);
+    margin-bottom: 10px;
+}
+
+.footer-social a {
+    margin-right: 10px;
+    color: var(--main-color);
+    font-size: 18px;
+}
+
+.footer-links h4,
+.footer-contact h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.footer-links a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: var(--gray);
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    color: var(--gray);
+    margin-bottom: 20px;
+}
+
+.footer-email {
+    display: flex;
+    align-items: center;
+}
+
+.footer-email input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+    max-width: 100%;
+}
+
+.footer-email button {
+    padding: 10px;
+    background-color: #f76c6a;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-email button:hover {
+    background-color: #f55353;
+}
+
+/* Responsive styles */
+@media (max-width: 520px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        padding: 10px;
+        flex: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-email {
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .footer-email input,
+    .footer-email button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .footer-logo {
+        margin: 0 auto 20px;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer {
+        column-gap: 3rem;
+    }
+
+    .footer-section {
+        min-width: 40%;
+    }
+
+    .footer-links a {
+        font-size: 15px;
+    }
+}

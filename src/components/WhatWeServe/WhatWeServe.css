@@ -1,0 +1,53 @@
+.what-we-serve-container {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.section-title {
+    color: var(--main-color);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--gray);
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    text-align: center;
+    max-width: 280px;
+    margin: 5px;
+}
+
+.service-card img {
+    width: 90%;
+    height: auto;
+}
+
+.service-card h4 {
+    font-size: 1.2rem;
+    margin: 5px 0 10px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: var(--gray);
+}
+
+/* Responsive Design */
+@media (max-width: 700px) {
+    .services {
+        flex-direction: column;
+    }
+}

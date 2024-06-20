@@ -1,0 +1,144 @@
+.ourMenu {
+    padding: 5rem 6rem;
+}
+
+.title-span {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu-title-container .menu-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+    gap: 1rem;
+}
+
+
+.menu-title h1 {
+    font-size: 42px;
+    color: var(--gray);
+}
+
+.item-arrow i {
+    background-color: #d7d0d0;
+    border-radius: 50px;
+    padding: 14px;
+}
+
+.item-arrow i:hover {
+    background-color: var(--main-color)
+}
+
+.item-arrow i:nth-child(1) {
+    margin-right: 10px;
+}
+
+.menu-item-container {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+}
+
+.menu-item-list {
+    display: flex;
+}
+
+.menu-item-list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+.menu-item-list ul li {
+    padding: 15px 30px;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.menu-item-list ul li.active {
+    background-color: var(--main-color);
+}
+
+.menu-items {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-items .menu-item {
+    position: relative;
+    width: 50%;
+    box-shadow: none;
+    border-radius: 8px;
+}
+
+.menu-item-img {
+    position: relative;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.menu-item img {
+    width: 100%;
+    max-height: 350px;
+}
+
+.menu-item .menu-item-details {
+    position: absolute;
+    bottom: 0px;
+    padding: 45px 20px 15px;
+    width: 100%;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(360deg, #14141466, rgba(0, 0, 0, 0.014))
+}
+
+@media (max-width: 1120px) {
+    .menu-item-list ul li {
+        font-size: 20px;
+        padding: 12px 20px;
+    }
+
+    .menu-item-list ul {
+        min-width: 150px;
+    }
+
+    .menu-item-container {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 780px) {
+    .ourMenu {
+        padding: 6rem 3rem;
+    }
+
+    .menu-title h1 {
+        font-size: 35px;
+    }
+
+    .menu-item-container {
+        flex-direction: column;
+    }
+
+    .menu-item-list ul li {
+        font-size: 16px;
+        padding: 12px 12px;
+    }
+
+    .menu-item-list ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .menu-item-list ul li.active {
+        padding: 12px 25px;
+    }
+}
