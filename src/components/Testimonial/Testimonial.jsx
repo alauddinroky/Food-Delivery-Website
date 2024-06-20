@@ -5,7 +5,7 @@ import reviewer from "../../assets/reviewer.png";
 import reviewers from "../../assets/reviewers.png";
 function Testimonial() {
   return (
-    <div className="testimonial-container">
+    <div className="testimonial-container" id="testimonial">
       <div className="testimonial-content">
         <div className="testimonial-img">
           <img src={testimonial} alt="" className="testi-img" />

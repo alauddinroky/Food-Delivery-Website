@@ -3,7 +3,7 @@ import "./OurMenu.css";
 import { image6, image7 } from "../../img";
 function OurMenu() {
   return (
-    <div className="ourMenu">
+    <div className="ourMenu" id="ourMenu">
       <div className="menu-title-container">
         <span className="title-span">Our Menu</span>
         <div className="menu-title">

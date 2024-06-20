@@ -18,7 +18,7 @@ import {
 
 const LandingPage = () => {
   return (
-    <div className="landing-container">
+    <div className="landing-container" id="home">
       <div className="main-content">
         <div className="text-content">
           <span className="tagline">More than Just Fast</span>

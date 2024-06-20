@@ -18,6 +18,11 @@ function App() {
       <OurMenu />
       <Testimonial />
       <Footer />
+      <div className="go-top">
+        <a href="#navbar">
+          <i className="fas fa-arrow-up"></i>
+        </a>
+      </div>
       {/* <Menu /> */}
     </>
   );

@@ -4,7 +4,7 @@ import "./WhatWeServe.css";
 import { delivery1, delivery2, delivery3 } from "../../img.js";
 function WhatWeServe() {
   return (
-    <div className="what-we-serve-container">
+    <div className="what-we-serve-container" id="services">
       <h2 className="section-title">What We Serve</h2>
       <h3 className="section-subtitle">
         Your Favorite Food <br /> Delivery Partner

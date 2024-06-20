@@ -1,0 +1,20 @@
+.go-top a i {
+    font-size: 17px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.go-top a i:hover {
+    opacity: 1;
+}

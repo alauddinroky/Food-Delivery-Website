@@ -4,7 +4,7 @@ import { logo } from "../../img";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div className="footer-section footer-branding">
         <img src={logo} alt="Fudo Logo" className="footer-logo" />
         <p>

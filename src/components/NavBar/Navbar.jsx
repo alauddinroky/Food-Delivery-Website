@@ -10,22 +10,22 @@ function Navbar() {
     setOpen(!open);
   };
   return (
-    <nav className="navbar">
+    <nav className="navbar" id="navbar">
       <div className="logo">
         <img src={logo} alt="Fudo Logo" />
       </div>
       <ul className={` ${open ? "open" : ""} nav-links`}>
         <li>
-          <a href="#why-fudo">Why Fudo?</a>
+          <a href="#home">Why Fudo?</a>
         </li>
         <li>
           <a href="#services">Services</a>
         </li>
         <li>
-          <a href="#menu">Menu</a>
+          <a href="#ourMenu">Menu</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#footer">Contact</a>
         </li>
       </ul>
       <button className="login-button">Login</button>
